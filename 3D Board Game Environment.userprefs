@@ -1,0 +1,43 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\3DBoardGameEnv\DM Scripts\Game Builder Scripts\WorldObject.js">
+    <Files>
+      <File FileName="Assets\3DBoardGameEnv\Player Scripts\PlayerCharacter.js" Line="318" Column="49" />
+      <File FileName="Assets\3DBoardGameEnv\DM Scripts\Game Builder Scripts\WorldObject.js" Line="83" Column="9" />
+      <File FileName="Assets\3DBoardGameEnv\DM Scripts\Game Handler Scripts\Statistics.js" Line="1" Column="1" />
+      <File FileName="Assets\3DBoardGameEnv\DM Scripts\Game Handler Scripts\NPCStats.js" Line="3" Column="2" />
+      <File FileName="Assets\3DBoardGameEnv\DM Scripts\Game Handler Scripts\PCStats.js" Line="3" Column="2" />
+      <File FileName="Assets\3DBoardGameEnv\Prefabs\PCCharacters\PCCharBehaviour.js" Line="16" Column="4" />
+      <File FileName="Assets\3DBoardGameEnv\DM Scripts\Game Builder Scripts\WorldBuilder.js" Line="238" Column="25" />
+      <File FileName="Assets\3DBoardGameEnv\DM Scripts\Game Builder Scripts\Model.js" Line="6" Column="2" />
+      <File FileName="Assets\3DBoardGameEnv\Networking Scripts\ServerController.js" Line="1" Column="1" />
+      <File FileName="Assets\3DBoardGameEnv\DM Scripts\Game Handler Scripts\AddPlayers.js" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-UnityScript" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="3DBoardGameEnv" expanded="True">
+                <Node name="DM Scripts" expanded="True">
+                  <Node name="Game Builder Scripts" expanded="True">
+                    <Node name="WorldObject.js" selected="True" />
+                  </Node>
+                  <Node name="Game Handler Scripts" expanded="True" />
+                </Node>
+                <Node name="Player Scripts" expanded="True" />
+                <Node name="Prefabs" expanded="True">
+                  <Node name="Door" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D39A2BD8-4CE6-AE4F-113D-A72E5530FE5A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_1;UNITY_4_5;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Common\CRC.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Common\InBuffer.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Common\OutBuffer.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Compress\LZ\IMatchFinder.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Compress\LZ\LzBinTree.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Compress\LZ\LzInWindow.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Compress\LZ\LzOutWindow.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Compress\LZMA\LzmaBase.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Compress\LZMA\LzmaDecoder.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Compress\LZMA\LzmaEncoder.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Compress\RangeCoder\RangeCoder.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Compress\RangeCoder\RangeCoderBit.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Compress\RangeCoder\RangeCoderBitTree.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\Compress\SevenZipHelper.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\7zip\ICoder.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\RPCEnabler.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\Broadcaster.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\Curves.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\Delegates\DelegateSupport.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\Easing.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\InheritableRPC.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\LoadAnimations.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\Loom.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\Radical.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\RadicalRoutine.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\RadicalRoutineHelper.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\Smoothing.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\Testing\Inherited.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\Testing\SimpleCaller.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\TransformExtensions.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Radical\System\XmlSupport.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\ResultLogger.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\Entry.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\GetSet.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\GetSetGeneric.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\GetWritableAttributes.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\IStorage.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\InRangeItem.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\LevelLoader.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\LevelSerializer.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\OnlyInRangeManager.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\PrefabIdentifier.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\RemoveEditors.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\Rooms\DontStoreObjectInRoom.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\Rooms\Examples\PlayerLocator.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\Rooms\Examples\PlayerSpawnPoint.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\Rooms\PreserveObjectWhenLoading.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\Rooms\Room.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\Rooms\RoomDataSaveGameStorage.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\Rooms\RoomLoader.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\Rooms\RoomManager.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\SaveGameManager.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\SerializationUnits.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\Storage.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\StoreInformation.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\StoreMaterials.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\StoredReferences.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\TimeSpecialist.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\UniqueIdentifier.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\UnitySerializationExtensions.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\UnitySerializer.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Serialization\prewarm.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Checksums\Adler32.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Checksums\CRC32.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Checksums\IChecksum.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Checksums\StrangeCRC.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\Deflater.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\DeflaterConstants.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\DeflaterEngine.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\DeflaterHuffman.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\DeflaterPending.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\Inflater.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\InflaterDynHeader.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\InflaterHuffmanTree.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\PendingBuffer.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\Streams\DeflaterOutputStream.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\Streams\InflaterInputStream.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\Streams\OutputWindow.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Compression\Streams\StreamManipulator.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Encryption\PkzipClassic.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Encryption\ZipAESStream.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\Encryption\ZipAESTransform.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\SharpZipBaseException.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\ZipConstants.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\ZipEntry.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\ZipExtraData.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\SharpZIP\src\ZipHelperStream.cs" />
+     <Compile Include="Assets\Plugins\whydoidoit.com\Utility\Types.cs" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <Compile Include="Assets\Standard Assets\iTween\Plugins\iTween.cs" />
+     <Compile Include="Assets\Standard Assets\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\Standard Assets\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\Standard Assets\iTween\Sample\SampleInfo.cs" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Specular.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Bump.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Specular.shader" />
+     <None Include="Assets\Forest Grounds - Terrain Texture Pack\Readme.txt" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent Specular.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
+     <None Include="Assets\Standard Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Bump.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Diffuse.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Diffuse.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Bump.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Diffuse.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Transparent Diffuse.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Diffuse.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque Diffuse.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Specular.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque Bump.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Plugins\whydoidoit.com\license.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Opaque Specular.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Bump.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Diffuse.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Specular.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Cut Out Opaque Diffuse.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Transparent Bump.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Cut Out Bump.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface Free Opaque Specular.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurfacePro Hidden Front Opaque Specular.shader" />
+     <None Include="Assets\Hard Surface Free\HardSurface Shaders\HardSurface SFX Depth Write Only.shader" />
+     <None Include="Assets\UnitySerializer\readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

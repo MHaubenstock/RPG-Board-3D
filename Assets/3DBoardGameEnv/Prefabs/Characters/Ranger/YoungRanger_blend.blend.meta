@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 809c2a0e544eb50469921af6d2bd582e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm1_L
+    100002: arm1_R
+    100004: arm2_L
+    100006: arm2_R
+    100008: Armature
+    100010: Armature_001
+    100012: Bone
+    100014: Circle_000
+    100016: Circle_001
+    100018: Circle_002
+    100020: Circle_003
+    100022: Circle_004
+    100024: Circle_005
+    100026: Circle_006
+    100028: foot_L
+    100030: foot_R
+    100032: hand_L
+    100034: hand_R
+    100036: head
+    100038: leg1_L
+    100040: leg1_R
+    100042: leg2_L
+    100044: leg2_R
+    100046: master
+    100048: Plane_002
+    100050: shoulder_L
+    100052: shoulder_R
+    100054: spine1
+    100056: spine2
+    100058: spine3
+    100060: String
+    100062: //RootNode
+    400000: arm1_L
+    400002: arm1_R
+    400004: arm2_L
+    400006: arm2_R
+    400008: Armature
+    400010: Armature_001
+    400012: Bone
+    400014: Circle_000
+    400016: Circle_001
+    400018: Circle_002
+    400020: Circle_003
+    400022: Circle_004
+    400024: Circle_005
+    400026: Circle_006
+    400028: foot_L
+    400030: foot_R
+    400032: hand_L
+    400034: hand_R
+    400036: head
+    400038: leg1_L
+    400040: leg1_R
+    400042: leg2_L
+    400044: leg2_R
+    400046: master
+    400048: Plane_002
+    400050: shoulder_L
+    400052: shoulder_R
+    400054: spine1
+    400056: spine2
+    400058: spine3
+    400060: String
+    400062: //RootNode
+    2300000: Circle_000
+    2300002: Circle_001
+    2300004: Circle_003
+    2300006: Circle_004
+    2300008: Circle_005
+    2300010: Circle_006
+    3300000: Circle_000
+    3300002: Circle_001
+    3300004: Circle_003
+    3300006: Circle_004
+    3300008: Circle_005
+    3300010: Circle_006
+    4300000: Circle_000
+    4300002: Circle_001
+    4300004: Circle_003
+    4300006: Circle_004
+    4300008: Circle_005
+    4300010: Circle_006
+    4300012: Circle_002
+    4300014: Plane_002
+    7400000: Default Take
+    7400002: Idle_001
+    9500000: //RootNode
+    13700000: Circle_002
+    13700002: Plane_002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 1
+  userData: 
